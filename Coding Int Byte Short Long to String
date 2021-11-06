@@ -1,0 +1,28 @@
+package practise;
+
+public class IntByteShortLongtoString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 int number = -125;
+	      String numberAsString = Integer.toString(number);
+	      System.out.println(numberAsString);
+	      
+         byte b = 20;
+
+System.out.println(Byte.toString(b));
+
+short s = 25;
+System.out.println(Short.toString(s));
+
+long l = 14861584l;
+String k = String.valueOf(l);
+System.out.println(k);
+
+
+double d = 24.5;
+String n = String.valueOf(d);
+System.out.println(n);
+	}
+
+}

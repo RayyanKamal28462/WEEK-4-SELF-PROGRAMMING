@@ -1,0 +1,46 @@
+package mathclass;
+
+public class Mathatan {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 double a = 30;
+		 double b = Math.toRadians(a);
+		 double positiveInfinity = 
+	                Double.POSITIVE_INFINITY;
+	         double negativeInfinity = 
+	                Double.NEGATIVE_INFINITY;
+	         double nan = Double.NaN;
+	         double result;
+	  
+	        System.out.println(Math.tan(b));
+	  
+	        a = 45;
+	        b = Math.toRadians(a);
+	  
+	        System.out.println(Math.tan(b));
+	  
+	        a = 60;
+	        b = Math.toRadians(a);
+	  
+	        System.out.println(Math.tan(b));
+	  
+	        a = 0;
+	        b = Math.toRadians(a);
+	  
+	        System.out.println(Math.tan(b));
+	        
+	       
+	         result = Math.tan(negativeInfinity);
+	         System.out.println(result);
+	   
+	         
+	         result = Math.tan(positiveInfinity);
+	         System.out.println(result);
+	   
+	         
+	         result = Math.tan(nan);
+	         System.out.println(result);
+	}
+
+}

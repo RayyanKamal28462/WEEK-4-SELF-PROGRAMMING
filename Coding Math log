@@ -1,0 +1,25 @@
+package mathclass;
+import java.lang.Math;
+public class MathLog {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 double a = -2.55;
+	        double b = 1.0 / 0;
+	        double c = 0, d = 145.256;
+	          
+	  
+	        // negative integer as argument, output NAN
+	        System.out.println(Math.log(a));
+	  
+	        // positive infinity as argument, output Infinity
+	        System.out.println(Math.log(b));
+	  
+	        // positive zero as argument, output -Infinity
+	        System.out.println(Math.log(c));
+	          
+	        // positive double as argument
+	        System.out.println(Math.log(d));
+	}
+
+}

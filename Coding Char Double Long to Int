@@ -1,0 +1,22 @@
+package practise;
+
+public class CharDoubleLongtoInt {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char c = 'a';
+	      int i = c;
+	      System.out.println(i);
+	      
+	      double d = 4.255;
+	      int p = (int) d;
+	      System.out.println(p);
+	      
+	      long l = 4245;
+	      int o = (int) l;
+	      System.out.println(o);
+	      
+	      
+	}
+
+}

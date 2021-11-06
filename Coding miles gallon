@@ -1,0 +1,29 @@
+package practise;
+
+import java.util.Scanner;
+
+public class milesgallon {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int miles;
+		      double gallons, mpg;
+
+		      Scanner read = new Scanner (System.in);
+		      
+		      System.out.print ("Enter the number of miles: ");
+		      miles = read.nextInt();
+
+		      System.out.print ("Enter the gallons of fuel used: ");
+		      gallons = read.nextDouble();
+
+		      mpg = miles / gallons;
+
+		      System.out.println ("Miles Per Gallon: " + mpg);
+		   }
+		}
+
+		
+	
+
+

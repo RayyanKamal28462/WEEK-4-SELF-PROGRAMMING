@@ -1,0 +1,12 @@
+package practise;
+
+public class InttoChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 38;
+	      char k = (char) i;
+	      System.out.println(k);
+	}
+
+}

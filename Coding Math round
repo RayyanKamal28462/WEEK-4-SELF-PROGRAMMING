@@ -1,0 +1,23 @@
+package mathclass;
+
+public class Mathround {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		float x = 4567.9874f;
+		  
+	     
+	      System.out.println(Math.round(x));
+	        
+	      float y = -3421.134f;
+	  
+	     
+	      System.out.println(Math.round(y));  
+	        
+	      double positiveInfinity = Double.POSITIVE_INFINITY;
+	  
+	      
+	      System.out.println(Math.round(positiveInfinity));  
+	}
+
+}
